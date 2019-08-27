@@ -27,22 +27,38 @@ def any_msg(message):
     kno3 = telebot.types.InlineKeyboardButton(text="САКСАГАНСКИЙ", callback_data="3")
     kno4 = telebot.types.InlineKeyboardButton(text="ЦЕНТРАЛЬНЫЙ", callback_data="4")
     keyboardmain.add(kno1, kno2)
-    keyboardmain.add(kno3,kno4)
-    bot.send_message(message.chat.id,"\U0001F50DТЕБЯ ПРИВЕТСТВУЕТ МАГАЗИН\n\n"
-                                     "\U0001F50DПОИСК КР №1\n\n"
-                                     "\U0001F9EDВить здесь ты найдёшь\U0001F50D\n\n"
-                                     "\U0001F449АМФЕТАМИН\U0001F443\n\n"
-                                     "\U0001F449ГАШИШ\U0001F36B\n\n"
-                                     "\U0001F449MDMA\U0001F444\n\n"
-                                     "\U0001F449LSD\U0001F445\n\n"
-                                     "\U0001F449ШИШКИ\U0001F33F\n\n"
-                                     "\U0001F4E2ОТЗЫВЫ О РАБОТЕ ТУТ\U0001F4DC\n"
-                                     "\nt.me/joinchat/AAAAAFkAVrOz3ei9erSXyg"
-                                     "\n\nU0001F464ТАК ЖЕ ЕСТЬ ОПЕРАТОР\U0001F5E3"
-                                     "\n"
-                                     "\nt.me/PoiskKRBRO"
-                                     "\n\n\U0001F50DЛЕГКО НАЙТИ\U0001F463\n\n "
-                                     "\U0001F449ДЛЯ НАЧАЛА ВЫБЕРИ РАЙОН \U0001F575", reply_markup=keyboardmain)
+    keyboardmain.add(kno3, kno4)
+    bot.send_message(message.chat.id, """\r
+                            ```Й```*о*```х```*о*```х```*о*
+    
+                            *Я Капитан* `Кладмен`
+                                              
+                            *И я окуну тебя в пиратский мир*
+                                
+                            *Ведь здесь ты можешь отправиться 
+                                             на поиски своего клад* 
+                                
+                                                        \U0001F449`_АМФЕТАМИН_`\U0001F443
+                                                        
+                                                        \U0001F449`_ГАШИШ_`\U0001F36B
+                                                        
+                                                        \U0001F449`_MDMA_`\U0001F444
+                                                        
+                                                        \U0001F449`_LSD_`\U0001F445
+                                                        
+                                                        \U0001F449`_ШИШКИ_`\U0001F33F
+                                                        
+    \U0001F4E2`Сюда попадают отзывы`
+                                                                        `наших кладоискателей`\U0001F4DC
+                                                                        
+                                    t.me/joinchat/AAAAAFkAVrOz3ei9erSXyg
+                                      
+                                     \U0001F464*Так же есть Штурман*\U0001F5E3
+                                                t.me/PoiskKRBRO
+                                     
+                                              *С Нами Легче Искать*
+                                     
+                                      *В какие воды ты хочешь выдвинутся???*""", parse_mode="Markdown", reply_markup=keyboardmain)
 
 
 
@@ -57,21 +73,37 @@ def callback_inline(call):
         kno4 = telebot.types.InlineKeyboardButton(text="ЦЕНТРАЛЬНЫЙ", callback_data="4")
         keyboard.add(kno1, kno2)
         keyboard.add(kno3, kno4)
-        bot.send_message(chat_id=call.message.chat.id, text="\U0001F44BТЕБЯ ПРИВЕТСТВУЕТ МАГАЗИН\n\n"
-                                                            "\U0001F50DПОИСК КР №1\n\n"
-                                     "\U0001F9EDВить здесь ты найдёшь\n\n"
-                                     "\U0001F449АМФЕТАМИН\U0001F443\n\n"
-                                     "\U0001F449ГАШИШ\U0001F36B\n\n"
-                                     "\U0001F449MDMA\U0001F444\n\n"
-                                     "\U0001F449LSD\U0001F445\n\n"
-                                     "\U0001F449ШИШКИ\U0001F33F\n\n"
-                                     "\U0001F4E2ОТЗЫВЫ О РАБОТЕ ТУТ\U0001F4DC\n"
-                                     "\nt.me/joinchat/AAAAAFkAVrOz3ei9erSXyg"
-                                     "\n\n\U0001F464ТАК ЖЕ ЕСТЬ ОПЕРАТОР\U0001F5E3"
-                                     "\n"
-                                     "\nt.me/PoiskKRBRO"
-                                     "\n\n\U0001F50DЛЕГКО НАЙТИ\U0001F463\n\n "
-                                     "\U0001F449ДЛЯ НАЧАЛА ВЫБЕРИ РАЙОН \U0001F575", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id, text="""\r
+                            ```Й```*о*```х```*о*```х```*о*
+    
+                            *Я Капитан* `Кладмен`
+                                              
+                            *И я окуну тебя в пиратский мир*
+                                
+                            *Ведь здесь ты можешь отправиться 
+                                             на поиски своего клад* 
+                                
+                                                        \U0001F449`_АМФЕТАМИН_`\U0001F443
+                                                        
+                                                        \U0001F449`_ГАШИШ_`\U0001F36B
+                                                        
+                                                        \U0001F449`_MDMA_`\U0001F444
+                                                        
+                                                        \U0001F449`_LSD_`\U0001F445
+                                                        
+                                                        \U0001F449`_ШИШКИ_`\U0001F33F
+                                                        
+    \U0001F4E2`Сюда попадают отзывы`
+                                                                        `наших кладоискателей`\U0001F4DC
+                                                                        
+                                    t.me/joinchat/AAAAAFkAVrOz3ei9erSXyg
+                                      
+                                     \U0001F464*Так же есть Штурман*\U0001F5E3
+                                                t.me/PoiskKRBRO
+                                     
+                                              *С Нами Легче Искать*
+                                     
+                                      *В какие воды ты хочешь выдвинутся???*""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "1":
         keyboard = telebot.types.InlineKeyboardMarkup()
@@ -86,7 +118,10 @@ def callback_inline(call):
         keyboard.add(kno3, kno4)
         keyboard.add(kno5, kno6)
         keyboard.add(backbutton)
-        bot.send_message(chat_id=call.message.chat.id,  text="ВЫБЕРИ УЛИЦУ ПОИСКА:", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id,  text="""\r
+        
+        
+        `Выбери берег куда отправится`""", parse_mode="Markdown",  reply_markup=keyboard)
 
     if call.data == "2":
         keyboard = telebot.types.InlineKeyboardMarkup()
@@ -97,9 +132,10 @@ def callback_inline(call):
         keyboard.add(kno1, kno2)
         keyboard.add(kno3)
         keyboard.add(backbutton)
-        bot.send_message(chat_id=call.message.chat.id, text="\U0001F575"
-                                                            "\n"
-                                                            "ВЫБЕРИ УЛИЦУ ПОИСКА:", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id, text="""\r
+        
+        
+        `Выбери берег куда отправится`""", parse_mode="Markdown",  reply_markup=keyboard)
 
 
     if call.data == "3":
@@ -112,7 +148,10 @@ def callback_inline(call):
         keyboard.add(kno1, kno2)
         keyboard.add(kno3, kno4)
         keyboard.add(backbutton)
-        bot.send_message(chat_id=call.message.chat.id, text="ВЫБЕРИ УЛИЦУ ПОИСКА:", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id, text="""\r
+        
+        
+        `Выбери берег куда отправится`""", parse_mode="Markdown",  reply_markup=keyboard)
 
     if call.data == "4":
         keyboard = telebot.types.InlineKeyboardMarkup()
@@ -123,7 +162,10 @@ def callback_inline(call):
         keyboard.add(kno1, kno2)
         keyboard.add(kno3)
         keyboard.add(backbutton)
-        bot.send_message(chat_id=call.message.chat.id, text="ВЫБЕРИ УЛИЦУ ПОИСКА:", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id, text="""\r
+        
+        
+        `Выбери берег куда отправится`""", parse_mode="Markdown",  reply_markup=keyboard)
 
     if call.data == "1.1":
         keyboard = telebot.types.InlineKeyboardMarkup()
@@ -134,7 +176,8 @@ def callback_inline(call):
         keyboard.add(kno1, kno2)
         keyboard.add(kno3)
         keyboard.add(backbutton)
-        bot.send_message(chat_id=call.message.chat.id, text="ВЫБЕРИ ЧТО БУДЕШЬ ИСКАТЬ:", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id, text="""\r
+        `Выбери клад который желаешь найти`""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "2.1":
         keyboard = telebot.types.InlineKeyboardMarkup()
@@ -143,7 +186,8 @@ def callback_inline(call):
         backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
         keyboard.add(kno1, kno2)
         keyboard.add(backbutton)
-        bot.send_message(chat_id=call.message.chat.id, text="ВЫБЕРИ ЧТО БУДЕШЬ ИСКАТЬ:", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id, text="""\r
+        `Выбери клад который желаешь найти`""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "3.1":
         keyboard = telebot.types.InlineKeyboardMarkup()
@@ -152,7 +196,8 @@ def callback_inline(call):
         backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
         keyboard.add(kno1, kno2)
         keyboard.add(backbutton)
-        bot.send_message(chat_id=call.message.chat.id, text="ВЫБЕРИ ЧТО БУДЕШЬ ИСКАТЬ:", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id, text="""\r
+        `Выбери клад который желаешь найти`""", parse_mode="Markdown", reply_markup=keyboard)
 
 
     if call.data == "4.1":
@@ -161,28 +206,31 @@ def callback_inline(call):
         backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
         keyboard.add(kno1)
         keyboard.add(backbutton)
-        bot.send_message(chat_id=call.message.chat.id, text="ВЫБЕРИ ЧТО БУДЕШЬ ИСКАТЬ:", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id, text="""\r
+        `Выбери клад который желаешь найти`""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "1.1.1":
         keyboard = telebot.types.InlineKeyboardMarkup()
         kno1 = telebot.types.InlineKeyboardButton(text="1г 350грн", callback_data="0.1.1")
-        kno2 = telebot.types.InlineKeyboardButton(text="2г 700грн", callback_data="0.2.1")
+        kno2 = telebot.types.InlineKeyboardButton(text="2г 600грн", callback_data="0.2.1")
         backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
         keyboard.add(kno1, kno2)
         keyboard.add(backbutton)
-        bot.send_message(chat_id=call.message.chat.id, text="КАКОЙ КЛАД ТЕБЕ НУЖЕН???", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id, text="""\r
+        `Выбери желаемый размер клада`""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "2.1.1":
         keyboard = telebot.types.InlineKeyboardMarkup()
         kno1 = telebot.types.InlineKeyboardButton(text="1г 160грн", callback_data="0.3.1")
         kno2 = telebot.types.InlineKeyboardButton(text="2г 300грн", callback_data="0.4.1")
-        kno3 = telebot.types.InlineKeyboardButton(text="3г 420грн", callback_data="0.5.1")
-        kno4 = telebot.types.InlineKeyboardButton(text="5г 600грн", callback_data="0.6.1")
+        kno3 = telebot.types.InlineKeyboardButton(text="3г 450грн", callback_data="0.5.1")
+        kno4 = telebot.types.InlineKeyboardButton(text="5г 700грн", callback_data="0.6.1")
         backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
         keyboard.add(kno1, kno2)
         keyboard.add(kno3,kno4)
         keyboard.add(backbutton)
-        bot.send_message(chat_id=call.message.chat.id, text="КАКОЙ КЛАД ТЕБЕ НУЖЕН???", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id, text="""\r
+        `Выбери желаемый размер клада`""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "3.1.1":
         keyboard = telebot.types.InlineKeyboardMarkup()
@@ -193,7 +241,8 @@ def callback_inline(call):
         keyboard.add(kno1, kno2)
         keyboard.add(kno3)
         keyboard.add(backbutton)
-        bot.send_message(chat_id=call.message.chat.id, text="КАКОЙ КЛАД ТЕБЕ  НУЖЕН???", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id, text="""\r
+        `Выбери желаемый размер клада`""", parse_mode="Markdown", reply_markup=keyboard)
 
 
 
@@ -204,211 +253,285 @@ def callback_inline(call):
         backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
         keyboard.add(kno1, kno2)
         keyboard.add(backbutton)
-        bot.send_message(chat_id=call.message.chat.id, text="КАКОЙ КЛАД ТЕБЕ НУЖЕН???\n\n"
-                                                            "LSD\MDMA ДОЗИРОВКА 1шт"
-                                                            "\nНА ДВОИХ", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id, text="""\r
+        `Выбери что предпочитаешь разделить со своей командой`
+        *Тот кто это создал, говорит что одна штука убивает двоих в течении от 8 до 10 часов*
+                               `Так что задумайся`""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "0.1.1":
         keyboard = telebot.types.InlineKeyboardMarkup()
-        backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
+        backbutton = telebot.types.InlineKeyboardButton(text="Связаться со Штурманом", url = 'https://t.me/PoisKKRBRO')
         keyboard.add(backbutton)
-        bot.send_message(chat_id=call.message.chat.id, text="ХОРОШИЙ ВЫБОР\U0001F44D\n\n\n"
-                                                            "\U0001F9FEID" + str(random.randint(1000,2000)) + ""
-                                                            "\n\n"
-                                                            "\U0001F48AАМФЕТАМИН 1г 350грн"
-                                                            "\n\n"
-                                                            "\U0001F4B0\U0001F4B0ОПЛАТА\U0001F4B0\U0001F4B0"
-                                                            "\n\U0001F4B3EasyPay - 66333880\U0001F4B3"
-                                                            "\n\n"
-                                                            "НЕ ЗАБУДЬ ПОДТВЕРДИТЬ ОПЛАТУ\n"
-                                                            "t.me/PoiskKRBRO"
-                                                            "\n"
-                                                            "НУЖНО ТОЛЬКО ЧЕК ИЛИ СКРИН ОПЛАТЫ", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id, text="""\r
+        \U0001F194""" + str(random.randint(100000, 200000)) + """
+
+        `После удачного решения в поиске клада`
+        
+        *Тебе осталось только оплатить услуги Капитана*
+        *На указаный кашелёк*
+        
+                     \n\U0001F4B3`BTC` *-1LofV78v6S4SVP1yh8Xy6iHLfM9QyxqCwd*
+                     
+                     \n\U0001F4B3`EasyPay` *- 66333880*
+                     
+        ``` Тебе необходимо внести```
+        \U0001F4B0*350UAH*\U0001F4B0`Для подтверждения своего участия в поиске`
+        \U0001F4CD*1g* `Амфетамин`\U0001F443
+        *После оплаты нажми кнопку* "Связаться со штурманом" 
+        ```Ведь именно у него будет находится твоя карта```\U0001F5FA
+        
+        
+        _Удачных поисков_\U0001F44D""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "0.2.1":
             keyboard = telebot.types.InlineKeyboardMarkup()
-            backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
+            backbutton = telebot.types.InlineKeyboardButton(text="Связаться со Штурманом", url = 'https://t.me/PoisKKRBRO')
             keyboard.add(backbutton)
-            bot.send_message(chat_id=call.message.chat.id, text="ХОРОШИЙ ВЫБОР\U0001F44D\n\n\n"
-                                                                "\U0001F9FEID" + str(random.randint(1000, 2000)) + ""
-                                                                "\n\n"
-                                                                "\U0001F48AАМФЕТАМИН 2г 700грн"
-                                                                "\n\n"
-                                                                "\U0001F4B0\U0001F4B0ОПЛАТА\U0001F4B0\U0001F4B0"
-                                                                "\n\U0001F4B3EasyPay - 66333880\U0001F4B3"
-                                                                "\n\n"
-                                                                "НЕ ЗАБУДЬ ПОДТВЕРДИТЬ ОПЛАТУ\n"
-                                                                "t.me/PoiskKRBRO"
-                                                                "\n"
-                                                                "НУЖНО ТОЛЬКО ЧЕК ИЛИ СКРИН ОПЛАТЫ", reply_markup=keyboard)
+            bot.send_message(chat_id=call.message.chat.id, text="""\r
+        \U0001F194""" + str(random.randint(100000, 200000)) + """
+
+        `После удачного решения в поиске клада`
+        
+        *Тебе осталось только оплатить услуги Капитана*
+        *На указаный кашелёк*
+        
+                     \n\U0001F4B3`BTC` *-1LofV78v6S4SVP1yh8Xy6iHLfM9QyxqCwd*
+                     
+                     \n\U0001F4B3`EasyPay` *- 66333880*
+                     
+        ``` Тебе необходимо внести```
+        \U0001F4B0*600UAH*\U0001F4B0`Для подтверждения своего участия в поиске`
+        \U0001F4CD*2g* `Амфетамин`\U0001F443
+        *После оплаты нажми кнопку* "Связаться со штурманом" 
+        ```Ведь именно у него будет находится твоя карта```\U0001F5FA
+        
+        
+        _Удачных поисков_\U0001F44D""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "0.3.1":
         keyboard = telebot.types.InlineKeyboardMarkup()
-        backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
+        backbutton = telebot.types.InlineKeyboardButton(text="Связаться со Штурманом", url = 'https://t.me/PoisKKRBRO')
         keyboard.add(backbutton)
-        bot.send_message(chat_id=call.message.chat.id, text="ХОРОШИЙ ВЫБОР\U0001F44D\n\n\n"
-                                                            "\U0001F9FEID" + str(random.randint(1000,2000)) + ""
-                                                            "\n\n"
-                                                            "\U0001F4A8ШИШКИ 1г 160грн"
-                                                            "\n\n"
-                                                            "\U0001F4B0\U0001F4B0ОПЛАТА\U0001F4B0\U0001F4B0"
-                                                            "\n\U0001F4B3EasyPay - 66333880\U0001F4B3"
-                                                            "\n\n"
-                                                            "НЕ ЗАБУДЬ ПОДТВЕРДИТЬ ОПЛАТУ\n"
-                                                            "t.me/PoiskKRBRO"
-                                                            "\n"
-                                                            "НУЖНО ТОЛЬКО ЧЕК ИЛИ СКРИН ОПЛАТЫ", reply_markup=keyboard)
+        bot.send_message(chat_id=call.message.chat.id, text="""\r
+        \U0001F194""" + str(random.randint(100000, 200000)) + """
+
+        `После удачного решения в поиске клада`
+        
+        *Тебе осталось только оплатить услуги Капитана*
+        *На указаный кашелёк*
+        
+                     \n\U0001F4B3`BTC` *-1LofV78v6S4SVP1yh8Xy6iHLfM9QyxqCwd*
+                     
+                     \n\U0001F4B3`EasyPay` *- 66333880*
+                     
+        ``` Тебе необходимо внести```
+        \U0001F4B0*160UAH*\U0001F4B0`Для подтверждения своего участия в поиске`
+        \U0001F4CD*1g* `Шишек`\U0001F33F
+        *После оплаты нажми кнопку* "Связаться со штурманом" 
+        ```Ведь именно у него будет находится твоя карта```\U0001F5FA
+        
+        
+        _Удачных поисков_\U0001F44D""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "0.4.1":
             keyboard = telebot.types.InlineKeyboardMarkup()
-            backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
+            backbutton = telebot.types.InlineKeyboardButton(text="Связаться со Штурманом", url = 'https://t.me/PoisKKRBRO')
             keyboard.add(backbutton)
-            bot.send_message(chat_id=call.message.chat.id, text="ХОРОШИЙ ВЫБОР\U0001F44D\n\n\n"
-                                                                "\U0001F9FEID" + str(random.randint(1000, 2000)) + ""
-                                                                "\n\n"
-                                                                "\U0001F4A8ШИШКИ 2г 300грн"
-                                                                "\n\n"
-                                                                "\U0001F4B0\U0001F4B0ОПЛАТА\U0001F4B0\U0001F4B0"
-                                                                "\n\U0001F4B3EasyPay - 66333880\U0001F4B3"
-                                                                "\n\n"
-                                                                "НЕ ЗАБУДЬ ПОДТВЕРДИТЬ ОПЛАТУ\n"
-                                                                "t.me/PoiskKRBRO"
-                                                                "\n"
-                                                                "НУЖНО ТОЛЬКО ЧЕК ИЛИ СКРИН ОПЛАТЫ", reply_markup=keyboard)
+            bot.send_message(chat_id=call.message.chat.id, text="""\r
+        \U0001F194""" + str(random.randint(100000, 200000)) + """
+
+        `После удачного решения в поиске клада`
+        
+        *Тебе осталось только оплатить услуги Капитана*
+        *На указаный кашелёк*
+        
+                     \n\U0001F4B3`BTC` *-1LofV78v6S4SVP1yh8Xy6iHLfM9QyxqCwd*
+                     
+                     \n\U0001F4B3`EasyPay` *- 66333880*
+                     
+        ``` Тебе необходимо внести```
+        \U0001F4B0*300UAH*\U0001F4B0`Для подтверждения своего участия в поиске`
+        \U0001F4CD*2g* `Шишек`\U0001F33F
+        *После оплаты нажми кнопку* "Связаться со штурманом" 
+        ```Ведь именно у него будет находится твоя карта```\U0001F5FA
+        
+        
+        _Удачных поисков_\U0001F44D""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "0.5.1":
             keyboard = telebot.types.InlineKeyboardMarkup()
-            backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
+            backbutton = telebot.types.InlineKeyboardButton(text="Связаться со Штурманом", url = 'https://t.me/PoisKKRBRO')
             keyboard.add(backbutton)
-            bot.send_message(chat_id=call.message.chat.id, text="ХОРОШИЙ ВЫБОР\U0001F44D\n\n\n"
-                                                                "\U0001F9FEID" + str(random.randint(1000, 2000)) + ""
-                                                                "\n\n"
-                                                                "\U0001F4A8ШИШКИ 3г 420грн"
-                                                                "\n\n"
-                                                                "\U0001F4B0\U0001F4B0ОПЛАТА\U0001F4B0\U0001F4B0"
-                                                                "\n\U0001F4B3EasyPay - 66333880\U0001F4B3"
-                                                                "\n\n"
-                                                                "НЕ ЗАБУДЬ ПОДТВЕРДИТЬ ОПЛАТУ\n"
-                                                                "t.me/PoiskKRBRO"
-                                                                "\n"
-                                                                "НУЖНО ТОЛЬКО ЧЕК ИЛИ СКРИН ОПЛАТЫ", reply_markup=keyboard)
+            bot.send_message(chat_id=call.message.chat.id, text="""\r
+        \U0001F194""" + str(random.randint(100000, 200000)) + """
+
+        `После удачного решения в поиске клада`
+        
+        *Тебе осталось только оплатить услуги Капитана*
+        *На указаный кашелёк*
+        
+                     \n\U0001F4B3`BTC` *- 1LofV78v6S4SVP1yh8Xy6iHLfM9QyxqCwd*
+                     
+                     \n\U0001F4B3`EasyPay` *- 66333880*
+                     
+        ``` Тебе необходимо внести```
+        \U0001F4B0*450UAH*\U0001F4B0`Для подтверждения своего участия в поиске`
+        \U0001F4CD*3g* `Шишек`\U0001F33F
+        *После оплаты нажми кнопку* "Связаться со штурманом" 
+        ```Ведь именно у него будет находится твоя карта```\U0001F5FA
+        
+        
+        _Удачных поисков_\U0001F44D""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "0.6.1":
             keyboard = telebot.types.InlineKeyboardMarkup()
-            backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
+            backbutton = telebot.types.InlineKeyboardButton(text="Связаться со Штурманом", url = 'https://t.me/PoisKKRBRO')
             keyboard.add(backbutton)
-            bot.send_message(chat_id=call.message.chat.id, text="ХОРОШИЙ ВЫБОР\U0001F44D\n\n\n"
-                                                                "\U0001F9FEID" + str(random.randint(1000, 2000)) + ""
-                                                                "\n\n"
-                                                                "\U0001F4A8ШИШКИ 5г 600грн"
-                                                                "\n\n"
-                                                                "\U0001F4B0\U0001F4B0ОПЛАТА\U0001F4B0\U0001F4B0"
-                                                                "\n\U0001F4B3EasyPay - 66333880\U0001F4B3"
-                                                                "\n\n"
-                                                                "НЕ ЗАБУДЬ ПОДТВЕРДИТЬ ОПЛАТУ\n"
-                                                                "t.me/PoiskKRBRO"
-                                                                "\n"
-                                                                "НУЖНО ТОЛЬКО ЧЕК ИЛИ СКРИН ОПЛАТЫ", reply_markup=keyboard)
+            bot.send_message(chat_id=call.message.chat.id, text="""\r
+        \U0001F194""" + str(random.randint(100000, 200000)) + """
+
+        `После удачного решения в поиске клада`
+        
+        *Тебе осталось только оплатить услуги Капитана*
+        *На указаный кашелёк*
+        
+                     \n\U0001F4B3`BTC` *- 1LofV78v6S4SVP1yh8Xy6iHLfM9QyxqCwd*
+                     
+                     \n\U0001F4B3`EasyPay` *- 66333880*
+                     
+        ``` Тебе необходимо внести```
+        \U0001F4B0*700UAH*\U0001F4B0`Для подтверждения своего участия в поиске`
+        \U0001F4CD*5g* `Шишек`\U0001F33F
+        *После оплаты нажми кнопку* "Связаться со штурманом" 
+        ```Ведь именно у него будет находится твоя карта```\U0001F5FA
+        
+        
+        _Удачных поисков_\U0001F44D""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "0.7.1":
             keyboard = telebot.types.InlineKeyboardMarkup()
-            backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
+            backbutton = telebot.types.InlineKeyboardButton(text="Связаться со Штурманом", url = 'https://t.me/PoisKKRBRO')
             keyboard.add(backbutton)
-            bot.send_message(chat_id=call.message.chat.id, text="ХОРОШИЙ ВЫБОР\U0001F44D\n\n\n"
-                                                                "\U0001F9FEID" + str(random.randint(1000, 2000)) + ""
-                                                                "\n\n"
-                                                                "\U0001F449ГАШИШ 0.5г 250грн"
-                                                                "\n\n"
-                                                                "\U0001F4B0\U0001F4B0ОПЛАТА\U0001F4B0\U0001F4B0"
-                                                                "\n\U0001F4B3EasyPay - 66333880\U0001F4B3"
-                                                                "\n\n"
-                                                                "НЕ ЗАБУДЬ ПОДТВЕРДИТЬ ОПЛАТУ\n"
-                                                                "t.me/PoiskKRBRO"
-                                                                "\n"
-                                                                "НУЖНО ТОЛЬКО ЧЕК ИЛИ СКРИН ОПЛАТЫ", reply_markup=keyboard)
+            bot.send_message(chat_id=call.message.chat.id, text="""\r
+        \U0001F194""" + str(random.randint(100000, 200000)) + """
+
+        `После удачного решения в поиске клада`
+        
+        *Тебе осталось только оплатить услуги Капитана*
+        *На указаный кашелёк*
+        
+                     \n\U0001F4B3`BTC` *- 1LofV78v6S4SVP1yh8Xy6iHLfM9QyxqCwd*
+                     
+                     \n\U0001F4B3`EasyPay` *- 66333880*
+                     
+        ``` Тебе необходимо внести```
+        \U0001F4B0*250UAH*\U0001F4B0`Для подтверждения своего участия в поиске`
+        \U0001F4CD*0.5g* `Гашиша`\U0001F36B
+        *После оплаты нажми кнопку* "Связаться со штурманом" 
+        ```Ведь именно у него будет находится твоя карта```\U0001F5FA
+        
+        
+        _Удачных поисков_\U0001F44D""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "0.8.1":
             keyboard = telebot.types.InlineKeyboardMarkup()
-            backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
+            backbutton = telebot.types.InlineKeyboardButton(text="Связаться со Штурманом", url = 'https://t.me/PoisKKRBRO')
             keyboard.add(backbutton)
-            bot.send_message(chat_id=call.message.chat.id, text="ХОРОШИЙ ВЫБОР\U0001F44D\n\n\n"
-                                                                "\U0001F9FEID" + str(random.randint(1000, 2000)) + ""
-                                                                "\n\n"
-                                                                "\U0001F449ГАШИШ 1г 450грн"
-                                                                "\n\n"
-                                                                "\U0001F4B0\U0001F4B0ОПЛАТА\U0001F4B0\U0001F4B0"
-                                                                "\n\U0001F4B3EasyPay - 66333880\U0001F4B3"
-                                                                "\n\n"
-                                                                "НЕ ЗАБУДЬ ПОДТВЕРДИТЬ ОПЛАТУ\n"
-                                                                "t.me/PoiskKRBRO"
-                                                                "\n"
-                                                                "НУЖНО ТОЛЬКО ЧЕК ИЛИ СКРИН ОПЛАТЫ", reply_markup=keyboard)
+            bot.send_message(chat_id=call.message.chat.id, text="""\r
+        \U0001F194""" + str(random.randint(100000, 200000)) + """
+
+        `После удачного решения в поиске клада`
+        
+        *Тебе осталось только оплатить услуги Капитана*
+        *На указаный кашелёк*
+        
+                     \n\U0001F4B3`BTC` *- 1LofV78v6S4SVP1yh8Xy6iHLfM9QyxqCwd*
+                     
+                     \n\U0001F4B3`EasyPay` *- 66333880*
+                     
+        ``` Тебе необходимо внести```
+        \U0001F4B0*450UAH*\U0001F4B0`Для подтверждения своего участия в поиске`
+        \U0001F4CD*1g* `Гашиша`\U0001F36B
+        *После оплаты нажми кнопку* "Связаться со штурманом" 
+        ```Ведь именно у него будет находится твоя карта```\U0001F5FA
+        
+        
+        _Удачных поисков_\U0001F44D""", parse_mode="Markdown", reply_markup = keyboard)
 
     if call.data == "0.9.1":
                 keyboard = telebot.types.InlineKeyboardMarkup()
-                backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
+                backbutton = telebot.types.InlineKeyboardButton(text="Связаться со Штурманом", url = 'https://t.me/PoisKKRBRO')
                 keyboard.add(backbutton)
-                bot.send_message(chat_id=call.message.chat.id, text="ХОРОШИЙ ВЫБОР\U0001F44D\n\n\n"
-                                                                    "\U0001F9FEID" + str(random.randint(1000, 2000)) + ""
-                                                                    "\n\n"
-                                                                    "\U0001F449ГАШИШ 2г 850грн"
-                                                                    "\n\n"
-                                                                    "\U0001F4B0\U0001F4B0ОПЛАТА\U0001F4B0\U0001F4B0"
-                                                                    "\n\U0001F4B3EasyPay - 66333880\U0001F4B3"
-                                                                    "\n\n"
-                                                                    "НЕ ЗАБУДЬ ПОДТВЕРДИТЬ ОПЛАТУ\n"
-                                                                    "t.me/PoiskKRBRO"
-                                                                    "\n"
-                                                                    "НУЖНО ТОЛЬКО ЧЕК ИЛИ СКРИН ОПЛАТЫ", reply_markup=keyboard)
+                bot.send_message(chat_id=call.message.chat.id, text="""\r
+        \U0001F194""" + str(random.randint(100000, 200000)) + """
+
+        `После удачного решения в поиске клада`
+        
+        *Тебе осталось только оплатить услуги Капитана*
+        *На указаный кашелёк*
+        
+                     \n\U0001F4B3`BTC` *- 1LofV78v6S4SVP1yh8Xy6iHLfM9QyxqCwd*
+                     
+                     \n\U0001F4B3`EasyPay` *- 66333880*
+                     
+        ``` Тебе необходимо внести```
+        \U0001F4B0*850UAH*\U0001F4B0`Для подтверждения своего участия в поиске`
+        \U0001F4CD*2g* `Гашиша`\U0001F36B
+        *После оплаты нажми кнопку* "Связаться со штурманом" 
+        ```Ведь именно у него будет находится твоя карта```\U0001F5FA
+        
+        
+        _Удачных поисков_\U0001F44D""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "0.0.1":
                 keyboard = telebot.types.InlineKeyboardMarkup()
-                backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
+                backbutton = telebot.types.InlineKeyboardButton(text="Связаться со Штурманом", url = 'https://t.me/PoisKKRBRO')
                 keyboard.add(backbutton)
-                bot.send_message(chat_id=call.message.chat.id, text="ХОРОШИЙ ВЫБОР\U0001F44D\n\n\n"
-                                                                    "\U0001F9FEID" + str(random.randint(1000, 2000)) + ""
-                                                                    "\n\n"
-                                                                    "\U0001F9FCMDMA 1шт 550грн"
-                                                                    "\n\n"
-                                                                    "\U0001F4B0\U0001F4B0ОПЛАТА\U0001F4B0\U0001F4B0"
-                                                                    "\n\U0001F4B3EasyPay - 66333880\U0001F4B3"
-                                                                    "\n\n"
-                                                                    "НЕ ЗАБУДЬ ПОДТВЕРДИТЬ ОПЛАТУ \n"
-                                                                    "t.me/PoiskKRBRO"
-                                                                    "\n"
-                                                                    "НУЖНО ТОЛЬКО ЧЕК ИЛИ СКРИН ОПЛАТЫ", reply_markup=keyboard)
+                bot.send_message(chat_id=call.message.chat.id, text="""\r
+        \U0001F194""" + str(random.randint(100000, 200000)) + """
+
+        `После удачного решения в поиске клада`
+        
+        *Тебе осталось только оплатить услуги Капитана*
+        *На указаный кашелёк*
+        
+                     \n\U0001F4B3`BTC` *- 1LofV78v6S4SVP1yh8Xy6iHLfM9QyxqCwd*
+                     
+                     \n\U0001F4B3`EasyPay` *- 66333880*
+                     
+        ``` Тебе необходимо внести```
+        \U0001F4B0*550UAH*\U0001F4B0`Для подтверждения своего участия в поиске`
+        \U0001F4CD*1sz* `MDMA`\U0001F444
+        *После оплаты нажми кнопку* "Связаться со штурманом" 
+        ```Ведь именно у него будет находится твоя карта```\U0001F5FA
+        
+        
+        _Удачных поисков_\U0001F44D""", parse_mode="Markdown", reply_markup=keyboard)
 
     if call.data == "0.0.2":
                 keyboard = telebot.types.InlineKeyboardMarkup()
-                backbutton = telebot.types.InlineKeyboardButton(text="ГЛАВНОЕ МЕНЮ", callback_data="mainmenu")
+                backbutton = telebot.types.InlineKeyboardButton(text="Связаться со Штурманом", url = 'https://t.me/PoisKKRBRO')
                 keyboard.add(backbutton)
-                bot.send_message(chat_id=call.message.chat.id, text="ХОРОШИЙ ВЫБОР\U0001F44D\n\n\n"
-                                                                    "\U0001F9FEID" + str(random.randint(1000, 2000)) + ""
-                                                                    "\n\n"
-                                                                    "\U0001F39FLSD 1шт 550грн"
-                                                                    "\n\n"
-                                                                    "\U0001F4B0\U0001F4B0ОПЛАТА\U0001F4B0\U0001F4B0"
-                                                                    "\n\U0001F4B3EasyPay - 66333880\U0001F4B3"
-                                                                    "\n\n" 
-                                                                    "НЕ ЗАБУДЬ ПОДТВЕРДИТЬ ОПЛАТУ\n"
-                                                                    "t.me/PoiskKRBRO"
-                                                                    "\n"
-                                                                    "НУЖНО ТОЛЬКО ЧЕК ИЛИ СКРИН ОПЛАТЫ", reply_markup=keyboard)
+                bot.send_message(chat_id=call.message.chat.id, text="""\r
+        \U0001F194""" + str(random.randint(100000, 200000)) + """
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        `После удачного решения в поиске клада`
+        
+        *Тебе осталось только оплатить услуги Капитана*
+        *На указаный кашелёк*
+        
+                     \n\U0001F4B3`BTC` *- 1LofV78v6S4SVP1yh8Xy6iHLfM9QyxqCwd*
+                     
+                     \n\U0001F4B3`EasyPay` *- 66333880*
+                     
+        ``` Тебе необходимо внести```
+        \U0001F4B0*550UAH*\U0001F4B0`Для подтверждения своего участия в поиске`
+        \U0001F4CD*1sz* `LSD`\U0001F39F
+        *После оплаты нажми кнопку* "Связаться со штурманом" 
+        ```Ведь именно у него будет находится твоя карта```\U0001F5FA
+        
+        
+        _Удачных поисков_\U0001F44D """, parse_mode="Markdown", reply_markup=keyboard)
 
 
 
